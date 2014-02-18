@@ -3,7 +3,7 @@ iOS7 Blur Overlay
 
 One way of recreating the iOS7-style blurred overlay, using CSS.
 
-![iOS7-style blurred overlay panels][https://raw2.github.com/twinraven/ios7-blur-overlay/master/img/screenshot.jpg]
+![iOS7-style blurred overlay panels](https://raw2.github.com/twinraven/ios7-blur-overlay/master/img/screenshot.jpg)
 
 ## Notes
 
