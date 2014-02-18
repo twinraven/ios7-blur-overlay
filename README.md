@@ -3,6 +3,8 @@ iOS7 Blur Overlay
 
 One way of recreating the iOS7-style blurred overlay, using CSS.
 
+![iOS7-style blurred overlay panels][https://raw2.github.com/twinraven/ios7-blur-overlay/master/img/screenshot.jpg]
+
 ## Notes
 
 * The main 'trick' here is to use `background-attachment: fixed;` for the background on the list items. This fixes the background's position to the top-level containing element
