@@ -105,6 +105,7 @@ body {
 
 ul {
     display: table-cell;
+    font-size: 0;
     list-style: none;
     padding: 0;
     text-align: center;
@@ -113,7 +114,7 @@ ul {
 
 li {
     background: #fff;
-    background: transparent url(../img/bg-blur.jpg) no-repeat left top;
+    background: transparent url(../img/bg-blur.jpg) no-repeat 0 0;
     background-attachment: fixed;
     background-size: cover;
     box-sizing: border-box;
@@ -124,19 +125,23 @@ li {
     font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 50px;
     height: 300px;
-    margin: 50px 10px;
+    margin: 2px;
     padding: 0 20px;
     position: relative;
     text-align: left;
     width: 300px;
+    transition: box-shadow 0.1s;
+    /*-webkit-backface-visibility: hidden;*/
 }
 
 li:hover {
-    height: 400px;
-    margin: -50px -40px;
-    top: -50px;
-    width: 400px;
+    bottom: -20px;
+    height: 340px;
+    margin: -40px -18px;
+    top: -20px;
+    width: 340px;
     z-index: 20;
+    box-shadow: 3px 3px 40px rgba(0,0,0,0.3);
 }
 
 li:after {
@@ -150,6 +155,7 @@ li:after {
     opacity: 0;
     top: 0;
     z-index: 2;
+    transition: opacity 0.1s;
 }
 
 li:hover:after {
